@@ -2,6 +2,7 @@
 <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constarintLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@android:color/holo_blue_light"
@@ -35,7 +36,7 @@
         app:layout_constraintBottom_toTopOf="@+id/showFactButton"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/questionTextView"/>
+        app:layout_constraintTop_toBottomOf="@+id/questionTextView" />
 
 
     <Button
@@ -47,6 +48,7 @@
         android:layout_marginStart="50dp"
         android:background="@android:color/white"
         android:text="@string/button"
+        android:textColor="@android:color/holo_blue_light"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
